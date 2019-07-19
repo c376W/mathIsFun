@@ -1,0 +1,50 @@
+h1 a{
+	font-size:50px;
+	font-weight:100;
+	color:#8A458A;
+	text-decoration:none;
+}
+
+i{
+	font-size:30px;
+	color: #f1e3ff;
+	padding-left:5px;
+}
+
+.text{
+	float:left;
+	width:200px;
+	padding:5px;
+	font-size:15px;
+	color:#8138ba;
+}
+
+.submit{
+	float:right;
+	padding:5px;
+	font-weight:bold;
+	background-color: #f1e3ff;
+}
+
+#container{
+    width:1050px;
+    border:1px solid grey;
+    margin:0 auto;
+}
+
+#header{
+	height:100px;
+}
+
+#brand{
+	float:left;
+}
+
+#searchBox{
+	float:right;
+	background:linear-gradient(#A66FA6,#370037);
+	width:400px;
+	height:50px;
+	padding:20px 20px 0 20px;
+	margin-top:15px;
+}
