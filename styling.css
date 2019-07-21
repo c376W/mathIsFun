@@ -2,13 +2,19 @@ h1 a{
 	font-size:50px;
 	font-weight:100;
 	color:#8A458A;
-	text-decoration:none;
 }
 
 i{
 	font-size:30px;
 	color: #f1e3ff;
 	padding-left:5px;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style:none;
+	
 }
 
 .text{
@@ -26,9 +32,37 @@ i{
 	background-color: #f1e3ff;
 }
 
+#menu{
+	height:70px;
+	background-color:#f1e3ff;
+}
+
+#menu ul{
+	padding:25px 20px;
+}
+
+#menu ul li{
+
+	float:left;
+	padding:0 20px;
+	border-right:1px solid #000;
+	text-transform: uppercase;
+	transition:font-size 0.3s;
+
+}
+
+#menu ul li:hover{
+	font-weight:bold;
+	font-size: 20px;
+	
+}
+
+#menu ul li:last-child{
+	border-right:none;
+}
+
 #container{
     width:1050px;
-    border:1px solid grey;
     margin:0 auto;
 }
 
